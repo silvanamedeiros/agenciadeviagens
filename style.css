@@ -15,39 +15,33 @@
 }
 
 header {
-    background-color: #f04158;
+    background-color:#67be9b;
     padding: 5rem 2rem;
     display: flex;
     justify-content: space-evenly;
-    gap: 1.2rem;
+    gap: 5rem;
 
 }
 
-header div {
+.apr {
+    padding: 10rem 5rem;
+    background-color: #95d0b8;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
 
 }
-
-.fa-solid {
-    font-size: 3em;
-    background-position: left;
-
-}
-
-.list {
-    font-size: 1.3em;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    color: black;
-
-
-}
-
-.a {
+ .apr div {
+    width: 15rem;
+    height: 10rem;
     
-}
+ }
+
+ .sesso01 {
+    background-image: url(imagens/Terra.jpg) linear-gradient (180deg,rgba(252, 252, 215, 1) 50%, rgba(167, 219, 187, 1) 100%);
+ }
 
 
-    
+   
+
+
