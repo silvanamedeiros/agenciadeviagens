@@ -1,0 +1,59 @@
+.color1 { #67be9b };
+.color2 { #95d0b8 };
+.color3 { #fcfcd7 };
+.color4 { #f1db42 };
+.color5 { #f04158 };
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding: 3rem;
+    background-color: #95d0b8;
+    
+
+}
+
+.header div {
+   
+
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    align-content: start;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.apr {
+    padding: 5rem;
+    background-color: #67be9b;
+    align-items: center;
+}
+
+.sessao01 {
+    background-image: url(imagens/nature-2605011_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
