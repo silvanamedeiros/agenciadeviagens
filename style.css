@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
     font-family: "Noto Sans JP", sans-serif;
 
@@ -15,9 +16,10 @@
 
 header {
     background-color: #f04158;
-    padding: 3rem;
+    padding: 5rem 2rem;
     display: flex;
     justify-content: space-evenly;
+    gap: 1.2rem;
 
 }
 
@@ -27,8 +29,8 @@ header div {
 
 }
 
-.icon {
-    font-size: 1.3em;
+.fa-solid {
+    font-size: 3em;
     background-position: left;
 
 }
