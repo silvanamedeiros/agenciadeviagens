@@ -1,10 +1,34 @@
-.color1 { #67be9b };
-.color2 { #95d0b8 };
-.color3 { #fcfcd7 };
-.color4 { #f1db42 };
-.color5 { #f04158 };
+.color1 {
+    #67be9b
+}
 
-*{
+;
+
+.color2 {
+    #95d0b8
+}
+
+;
+
+.color3 {
+    #fcfcd7
+}
+
+;
+
+.color4 {
+    #f1db42
+}
+
+;
+
+.color5 {
+    #ee3f57
+}
+
+;
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,36 +36,116 @@
 
     font-family: "Noto Sans JP", sans-serif;
 
+
+
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
+
+
 }
 
 header {
-    background-color:#67be9b;
-    padding: 5rem 2rem;
+    background-color: #67be9b;
+    padding: 3rem 2rem;
     display: flex;
-    justify-content: space-evenly;
-    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
+.ul-header {
+    display: flex;
+    gap: 25px;
+
+
+}
+
+.ul-header li {
+    list-style: none;
+
+}
+
+
+.ul-header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.fa-earth-americas {
+    font-size: 3rem;
+}
+
+
+
 .apr {
-    padding: 10rem 5rem;
+    padding: 20rem 10rem;
     background-color: #95d0b8;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+
 
 }
- .apr div {
-    width: 15rem;
+
+.apr div {
+    width: 20rem;
     height: 10rem;
-    
- }
 
- .sesso01 {
-    background-image: url(imagens/Terra.jpg) linear-gradient (180deg,rgba(252, 252, 215, 1) 50%, rgba(167, 219, 187, 1) 100%);
- }
+}
+
+.sessao01 {
+    background: linear-gradient(178deg,rgba(30, 40, 66, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(14, 25, 232, 1) 100%);
+    background-image: url(imagens/Terra.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
-   
+}
+
+.text p {
+    color: black;
+    font-size: 2em;
+    justify-content: center;
 
 
+}
+
+
+.sessao02 img {
+    width: 50rem;
+    height: 30rem;
+    align-items: center;
+}
+
+.destini {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.sessao03 {
+    background-image: url(imagens/Torre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.torre {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sessao03 p {
+    text-align: center;
+}
+
+@media (min-width: 299px) {}
