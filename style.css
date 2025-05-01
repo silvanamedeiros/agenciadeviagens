@@ -49,7 +49,7 @@
 
 header {
     background-color: #67be9b;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,13 +77,13 @@ header {
 }
 
 .fa-earth-americas {
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 
 
 .apr {
-    padding: 5rem 2rem;
+    padding: 18rem 10rem;
     background-color: #95d0b8;
     display: flex;
     justify-content: space-around;
@@ -94,8 +94,9 @@ header {
 }
 
 .apr div {
-    width: 30rem;
-    height: 50rem;
+    width: 22rem;
+    height: 22rem;
+    background-position: center;
 
 }
 
@@ -136,10 +137,11 @@ header {
 }
 
 
-.sessao03 img {
-    width: 30rem;
-    height: 30rem;
-    align-items: center;
+.sessao02 img {
+    width: 15rem;
+    height: 15rem;
+    background-position: center;
+   
 }
 
 .dstn p, h2 {
@@ -150,7 +152,7 @@ header {
 }
 
 
-.sessao04 {
+.sessao03 {
     background-image: url(imagens/Torre.jpg);
     background-position: center;
     background-repeat: no-repeat;
