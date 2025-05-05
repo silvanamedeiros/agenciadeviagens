@@ -1,32 +1,8 @@
-.color1 {
-    #67be9b
-}
-
-;
-
-.color2 {
-    #95d0b8
-}
-
-;
-
-.color3 {
-    #fcfcd7
-}
-
-;
-
-.color4 {
-    #f1db42
-}
-
-;
-
-.color5 {
-    #ee3f57
-}
-
-;
+.color1 {#67be9b};
+.color2 {#95d0b8};
+.color3 {#fcfcd7};
+.color4 {#f1db42};
+.color5 {#ee3f57};
 
 * {
     margin: 0;
@@ -103,6 +79,11 @@ header {
     background-position: center;
     min-width: 299px;
 
+}
+
+.busca {
+    padding: 3rem;
+    background-color: #eee4a4;
 }
 
 .sessao01 {
