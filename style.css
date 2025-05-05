@@ -60,21 +60,18 @@ header {
     font-size: 2rem;
 }
 
-
-
 .apr {
-    padding: 15rem 10rem;
+    padding: 12rem 5rem;
     background-color: #95d0b8;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-content: center;
 
 
 }
 
 .apr div {
-    width: 22rem;
+    width: 10rem;
     height: 27rem;
     background-position: center;
     min-width: 299px;
@@ -85,6 +82,15 @@ header {
     padding: 3rem;
     background-color: #eee4a4;
 }
+
+.psq {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1.3rem;
+    height: 2rem;
+
+}
+
 
 .sessao01 {
     background: linear-gradient(178deg, rgba(30, 40, 66, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(14, 25, 232, 1) 100%);
@@ -99,7 +105,7 @@ header {
 .text p {
     color: rgb(109, 107, 107);
     font-family: "Lato", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: italic;
     ;
     font-size: 2em;
@@ -115,19 +121,13 @@ header {
 
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-
-}
 
 .sessao02 {
     padding: 15rem;
     display: flex;
     justify-content: space-evenly;
-    background-position: center;
+    flex-wrap: wrap;
+   
 }
 
 
@@ -178,7 +178,6 @@ h2 {
 
 footer {
     padding: 2rem 1rem;
-   
     background-color: #67be9b;
     display: flex;
     justify-content: space-evenly;
@@ -235,6 +234,34 @@ footer {
     footer {
         flex-direction: column;
         gap: 40px;
+    }
+
+    .ul-footer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 299px) {
+    .fa-earth-americas {
+        width: 1rem;
+    }
+
+    .ul-list {
+        display: none;    
+    }
+
+    .sessao02 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .torre {
+        flex-direction: column;
+    }
+
+    footer {
+        text-align: center;
+
     }
 
     .ul-footer {
