@@ -70,13 +70,7 @@ header {
 
 }
 
-.apr div {
-    width: 10rem;
-    height: 27rem;
-    background-position: center;
-    min-width: 299px;
 
-}
 
 .busca {
     padding: 3rem;
@@ -107,7 +101,6 @@ header {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: italic;
-    ;
     font-size: 2em;
     justify-content: start;
 
@@ -132,15 +125,15 @@ header {
 
 
 .sessao02 img {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
 
 
 }
 
 .sessao02 div {
-    width: 20rem;
-    height: 40rem;
+    width: 15rem;
+    height: 27rem;
     display: flex;
     flex-direction: column;
     box-shadow: 10px 10px 20px #67be9b;
@@ -156,7 +149,7 @@ header {
 h2 {
     text-align: center;
     flex-direction: column;
-    font-size: 2.2em;
+    font-size: 1.5em;
 
 
 }
@@ -251,8 +244,9 @@ footer {
     }
 
     .sessao02 {
-        flex-direction: column;
-        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     .torre {
