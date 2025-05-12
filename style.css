@@ -224,6 +224,14 @@ footer {
         display: none;
     }
 
+    .hamburger {
+        display: flex;
+        padding: 0.3rem;
+        background: transparent;
+        color: white;
+        font-size: 1.5rem;
+    }
+
     footer {
         flex-direction: column;
         gap: 40px;
@@ -237,6 +245,11 @@ footer {
 @media (min-width: 299px) {
     .fa-earth-americas {
         width: 1rem;
+    }
+
+    .ul-header {
+        display: flex;
+
     }
 
     .ul-list {
