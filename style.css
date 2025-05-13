@@ -13,15 +13,12 @@
     font-family: "Noto Sans JP", sans-serif;
 
 
-
-    position: sticky;
-    top: 0;
-    left: 0;
-
-    z-index: 1000;
-
-
 }
+
+.hamburger {
+    display: none;
+}
+
 
 header {
     background-color: #67be9b;
@@ -29,6 +26,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
 
 }
 
@@ -224,49 +228,16 @@ footer {
 
     .hamburger {
         display: flex;
-        padding: 0.3rem;
+        justify-content: space-around;
+        padding: 20px;
         background: transparent;
-        color: white;
-        font-size: 1.5rem;
+        color: black;
+        font-size: 1em;
     }
 
     footer {
         flex-direction: column;
         gap: 40px;
-    }
-
-    .ul-footer {
-        text-align: center;
-    }
-}
-
-@media (min-width: 299px) {
-    .fa-earth-americas {
-        width: 1rem;
-    }
-
-    .ul-header {
-        display: flex;
-
-    }
-
-    .ul-list {
-        display: none;    
-    }
-
-    .sessao02 {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-
-    .torre {
-        flex-direction: column;
-    }
-
-    footer {
-        text-align: center;
-
     }
 
     .ul-footer {
