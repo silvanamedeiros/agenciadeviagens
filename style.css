@@ -75,13 +75,18 @@ header {
 
 
 .busca {
-    padding: 3rem;
+    padding: 1rem;
     background-color: #eee4a4;
 }
 
 .busca div {
-    width: 7rem;
-    height: 3rem;
+    width: 5rem;
+    height: 2rem;
+    gap: 10PX;
+    cursor: pointer;
+    text-align: center;
+   
+    
 
 }
 
@@ -89,8 +94,10 @@ header {
 .psq {
     display: flex;
     justify-content: space-evenly;
-    width: 1.3rem;
-    height: 2rem;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: ;
+   
 
 }
 
@@ -145,6 +152,7 @@ header {
 
 .sessao02 div:hover {
     color: rgb(85, 84, 84);
+    transition: 03s;
 }
 
 .dstn p,
